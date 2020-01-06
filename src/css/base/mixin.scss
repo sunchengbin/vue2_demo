@@ -1,0 +1,68 @@
+// 多行省略
+@mixin rowHide ($num: 2) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $num;
+  overflow: hidden;
+}
+
+// 滚动
+@mixin overflowY {
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+@mixin overflowX {
+  overflow-x: scroll !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+// 文字省略号
+@mixin txtOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin titleFont {
+  // 主标题
+  font-size: 38px;
+  font-weight: 700;
+}
+
+@mixin buttonFont {
+  // 按钮
+  font-size: 30px;
+  font-weight: 700;
+}
+
+//渐变 --》左右
+
+@mixin gradient($start, $end) {
+  background: -webkit-linear-gradient(to right, $start, $end);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(to right, $start, $end);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(to right, $start, $end);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, $start, $end);
+  /* 标准的语法（必须放在最后*/
+}
+
+//渐变 --》上下
+@mixin gradientBottom($start, $end) {
+  background: -webkit-linear-gradient(to bottom, $start, $end);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(to bottom, $start, $end);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(to bottom, $start, $end);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, $start, $end);
+  /* 标准的语法（必须放在最后*/
+}
+
+@mixin gradientText($to, $start, $end) {
+  background: -webkit-linear-gradient($to, $start, $end);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

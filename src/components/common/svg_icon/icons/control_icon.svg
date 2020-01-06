@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="67.3987926%" y1="75.1669034%" x2="50%" y2="6.13103693%" id="linearGradient-1">
+            <stop stop-color="#A2772B" offset="0%"></stop>
+            <stop stop-color="#F0D096" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="110" height="110" rx="55"></rect>
+        <filter x="-8.6%" y="-8.6%" width="117.3%" height="117.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="5" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="84.7127279%" x2="57.3576627%" y2="21.9848633%" id="linearGradient-5">
+            <stop stop-color="#222222" offset="0%"></stop>
+            <stop stop-color="#815A16" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页新版本按钮" transform="translate(-612.000000, -1646.000000)">
+            <g id="Group-19" transform="translate(612.000000, 1646.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Rectangle-24">
+                    <use fill-opacity="0.6" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                </g>
+                <text id="遥控" fill="url(#linearGradient-5)" mask="url(#mask-3)" font-family="PingFangSC-Medium, PingFang SC" font-size="34" font-weight="400" letter-spacing="2.266667">
+                    <tspan x="19.233333" y="67">遥控</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

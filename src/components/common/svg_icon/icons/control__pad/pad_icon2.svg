@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>聊骚表情</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.50470197%" y1="97.7684227%" x2="97.5387008%" y2="3.79539696%" id="linearGradient-1">
+            <stop stop-color="#5F66F3" offset="0%"></stop>
+            <stop stop-color="#D291FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="遥控弹窗定稿" transform="translate(-236.000000, -502.000000)">
+            <g id="聊骚表情" transform="translate(236.000000, 502.000000)">
+                <rect id="Rectangle-32-Copy" fill="url(#linearGradient-1)" x="0" y="0" width="100" height="100" rx="28"></rect>
+                <path d="M49.9584094,26.0001136 C60.6987739,25.9671825 70.15209,33.0955345 73.086197,43.4400594 C76.0200696,53.7843499 71.7240879,64.8247053 62.5708389,70.4531689 C53.41759,76.0813981 41.642196,74.9202546 33.7581238,67.6178717 L33.6890398,67.6178717 L31.4479994,65.2328282 C25.5648436,58.0625799 24.3377969,48.1350846 28.2980269,39.746913 C32.2580225,31.3585071 40.6911924,26.0033364 49.9584094,26.0001136 Z M38.7058824,49.5294118 C41.5647681,49.5294118 43.8823529,47.2118269 43.8823529,44.3529412 C43.8823529,41.4940554 41.5647681,39.1764706 38.7058824,39.1764706 C35.8469966,39.1764706 33.5294118,41.4940554 33.5294118,44.3529412 C33.5294118,47.2118269 35.8469966,49.5294118 38.7058824,49.5294118 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <path d="M49.191408,63.8415671 C55.2234784,63.8415671 59.4145777,61.3858379 61.7647059,56.4743796" id="Path-3" stroke="#977BF6" stroke-width="6" stroke-linecap="round" transform="translate(55.478057, 60.157973) rotate(10.000000) translate(-55.478057, -60.157973) "></path>
+                <polyline id="Path-4" stroke="#977BF6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="63.561989 40.1176471 57.0588235 44.2683761 63.561989 47.4848346"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

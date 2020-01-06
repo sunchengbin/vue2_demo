@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="screen-orientation" content="portrait" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta name="full-screen" content="yes">
+  <meta name="x5-fullscreen" content="true">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="//api.com" />
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="preload" href="/open_screen.gif" as="image">
+  <title>
+    <%= VUE_APP_TITLE %>
+  </title>
+  <!--<script src="https://cdn.bootcss.com/socket.io/2.1.0/socket.io.js"></script>-->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4f234ca32b62f03b89bb12f1097a97ca";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+  <style>
+    #loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 99999;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    }
+
+    #loading .img-wrap {
+    width: 33.3%;
+    margin-top: 40%;
+    }
+
+    #loading .logo {
+    width: 50%;
+    margin-top: 50%;
+    }
+
+    #loading img {
+    width: 100%;
+    height: auto;
+    }
+
+    #loading p {
+      font-weight: bold;
+      padding-top: 5.5%;
+      text-align: center;
+    }
+    .loading {
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <noscript>
+    <strong>We're sorry but vue_demo doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <div id="loading">
+    <div class="img-wrap">
+      <img src="/open_screen.gif">
+    </div>
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+<script>
+  if (document.addEventListener) {
+    function DOMContentLoaded() {
+      var loading = document.getElementById('loading')
+      if (location.href.indexOf('/action/home') >= 0) {
+        loading.style.visibility = 'visible'
+      } else {
+        loading.style.display = 'none'
+      }
+    }
+    document.addEventListener("DOMContentLoaded", DOMContentLoaded, false);
+  }
+</script>
+
+</html>

@@ -1,0 +1,34 @@
+
+// font-color
+$link_font_color: #4990E2;
+$active_font_color: #42b983;
+$four_level_color: #c8c8c8; // 文字四级色
+$three_level_color: #999; // 文字三级色
+$two_level_color: #666; // 文字二级色
+$one_level_color: #333; // 文字一级色
+
+// border-color
+$line_color: #f0f0f0; // 辅助线色
+
+// background-color
+$lazy_bg_color: #f5f5f5;
+$font_family:'PingFang SC Light';
+//
+$button_normal_solid: #d9d9d9; // 实色按钮未点击色
+$bottom_color: #f8f8fa; // 分隔空隙颜色和底色
+
+$z_index_one: 10; // 第一级z-index
+$z_index_two: 20; // 第二级z-index
+$z_index_three: 30; // 第三级z-index
+$z_index_important: 1000; // 最高级z-index
+
+$rank_bg: #140258; // 大背景色
+$rank_list_bg: #5524CC; // 列表背景色
+$rank_title_color: #fff; // 标题字体主色
+$rank_score_color: #ffd800; // 分数字体颜色(黄色)
+$rank_font_color: #9A7DFF; // 副标题字体颜色（淡紫色）
+$rank_border_color: #472394; // 列表下边框颜色
+$rank_song_hint: #3C4AD7; // 选择作品提示语深蓝色
+$rank_title_active_color: #C858D6; //标题选择文字颜色
+$rank_btn_color: #E1287B; // 弹窗按钮颜色
+$rank_slider_color: #14FFFF; // 歌曲详情进度条颜色(天蓝色)

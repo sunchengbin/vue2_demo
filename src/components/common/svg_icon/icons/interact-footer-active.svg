@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="99px" viewBox="0 0 89 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 9备份 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M72.02036,16.2732784 C63.2245217,6.29476028 50.3473708,0 36,0 C21.7789493,0 9.00234382,6.1844049 0.212247119,16.0104742 C17.9211426,15.9577637 65.7231445,16.2797852 72.02036,16.2732784 Z" id="path-1"></path>
+        <filter x="-25.1%" y="-147.5%" width="150.1%" height="321.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.951211735   0 0 0 0 0.951211735   0 0 0 0 0.951211735  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="10.5025167%" y1="97.7684227%" x2="89.5335774%" y2="3.79539696%" id="linearGradient-3">
+            <stop stop-color="#5F66F3" offset="0%"></stop>
+            <stop stop-color="#D291FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.50470197%" y1="97.7684227%" x2="97.5387008%" y2="3.79539696%" id="linearGradient-4">
+            <stop stop-color="#5F66F3" offset="0%"></stop>
+            <stop stop-color="#D291FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-K歌榜活动入口备份-9" transform="translate(-331.000000, -1799.000000)">
+            <g id="下导航备份-3" transform="translate(0.000000, 1815.000000)">
+                <g id="Group-9备份-2" transform="translate(339.000000, 0.000000)">
+                    <g id="Oval-4">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="编组" transform="translate(1.000000, 13.000000)">
+                        <path d="M35,70 C46.5131742,70 56.7279708,64.4409844 63.1066994,55.8606434 C64.1549746,54.450557 63.9620361,52.7003174 63.2178057,51.722168 C62.7216521,51.0700684 61.0097887,49.9508464 58.0822153,48.364502 C48.3132938,43.6055501 43.2960205,41.1486816 43.0303955,40.9938965 C42.631958,40.7617188 41.0130615,40.0452881 41.0130615,38.9840088 C41.0130615,37.9227295 41.6468506,37.536377 42.0947266,37.057251 C42.3933105,36.7378337 47.7224735,31.8391927 58.0822153,22.3613281 C61.5059423,19.0848821 63.2178057,16.8722159 63.2178057,15.7233295 C63.2178057,14 62.2449947,12.9628019 61.1183657,11.7007397 C54.7086947,4.52055585 45.3822636,0 35,0 C15.6700338,0 -5.68434189e-13,15.6700338 -5.68434189e-13,35 C-5.68434189e-13,54.3299662 15.6700338,70 35,70 Z" id="Oval-4-Copy" fill="url(#linearGradient-3)"></path>
+                        <circle id="椭圆形" fill="url(#linearGradient-4)" cx="65.5" cy="35.5" r="6.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

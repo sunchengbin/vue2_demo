@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="37px" viewBox="0 0 33 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.4424546%" y1="13.887068%" x2="26.1506944%" y2="88.6871216%" id="linearGradient-1">
+            <stop stop-color="#FFF2DD" offset="0%"></stop>
+            <stop stop-color="#CC8E2B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.1784519%" y1="13.6270957%" x2="27.2049041%" y2="89.4159724%" id="linearGradient-2">
+            <stop stop-color="#A08555" offset="0%"></stop>
+            <stop stop-color="#4C360F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.4815416,0.840876017 L27.9815416,7.88175155 C28.6107238,8.23615099 29,8.90220078 29,9.62432895 L29,23.6213396 C29,24.3434677 28.6107238,25.0095175 27.9815416,25.363917 L15.4815416,32.4047925 C14.8721889,32.7480226 14.1278111,32.7480226 13.5184584,32.4047925 L1.01845835,25.363917 C0.389276233,25.0095175 4.88498131e-15,24.3434677 3.55271368e-15,23.6213396 L-9.76996262e-15,9.62432895 C-1.0658141e-14,8.90220078 0.389276233,8.23615099 1.01845835,7.88175155 L13.5184584,0.840876017 C14.1278111,0.497645884 14.8721889,0.497645884 15.4815416,0.840876017 Z" id="path-3"></path>
+        <linearGradient x1="7.56729517%" y1="86.0492413%" x2="96.404059%" y2="2.78752254%" id="linearGradient-5">
+            <stop stop-color="#1D160A" offset="0%"></stop>
+            <stop stop-color="#6C4E1A" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="11.8189555 -1.42108547e-14 23.6379109 6.36240291 23.6379109 17.9852082 11.8189555 24.3476111 -3.55271368e-15 17.9852082 -3.55271368e-15 6.36240291"></polygon>
+        <linearGradient x1="47.1886268%" y1="78.4282484%" x2="56.4359225%" y2="27.1484375%" id="linearGradient-8">
+            <stop stop-color="#D39F4C" offset="0%"></stop>
+            <stop stop-color="#FFFFDD" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-9" font-family="Arial-Black, Arial Black" font-size="22" font-weight="700">
+            <tspan x="6.44384766" y="25">V</tspan>
+        </text>
+        <filter x="-5.0%" y="-3.2%" width="115.0%" height="112.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页新版本按钮" transform="translate(-343.000000, -1855.000000)">
+            <g id="Group-13" transform="translate(111.000000, 1853.000000)">
+                <g id="Group-21" transform="translate(234.000000, 0.000000)">
+                    <g id="Group-19-Copy-2" transform="translate(0.000000, 4.000000)">
+                        <g id="Group-16">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <path stroke="url(#linearGradient-2)" stroke-width="2" d="M15.9723125,-0.0304126826 L28.4723125,7.01046285 C29.4160857,7.54206201 30,8.54113669 30,9.62432895 L30,23.6213396 C30,24.7045318 29.4160857,25.7036065 28.4723125,26.2352057 L15.9723125,33.2760812 C15.0582834,33.7909264 13.9417166,33.7909264 13.0276875,33.2760812 L0.52768753,26.2352057 C-0.41608565,25.7036065 -1,24.7045318 -1,23.6213396 L-1,9.62432895 C-1,8.54113669 -0.41608565,7.54206201 0.52768753,7.01046285 L13.0276875,-0.0304126826 C13.9417166,-0.545257882 15.0582834,-0.545257882 15.9723125,-0.0304126826 Z"></path>
+                            <rect id="Rectangle-20" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-4)" transform="translate(-1.175676, 26.523810) rotate(45.000000) translate(1.175676, -26.523810) " x="-23.5135135" y="12.4285714" width="44.6756757" height="28.1904762"></rect>
+                            <rect id="Rectangle-20-Copy" fill-opacity="0.4" fill="#FFFFFF" mask="url(#mask-4)" transform="translate(30.175676, 26.523810) scale(-1, 1) rotate(45.000000) translate(-30.175676, -26.523810) " x="7.83783784" y="12.4285714" width="44.6756757" height="28.1904762"></rect>
+                        </g>
+                        <path d="M16.2056525,3.38074961 L26.2056525,8.88583903 C27.004045,9.32536119 27.5,10.1645298 27.5,11.075908 L27.5,21.924092 C27.5,22.8354702 27.004045,23.6746388 26.2056525,24.114161 L16.2056525,29.6192504 C15.4549991,30.0324918 14.5450009,30.0324918 13.7943475,29.6192504 L3.79434746,24.114161 C2.99595505,23.6746388 2.5,22.8354702 2.5,21.924092 L2.5,11.075908 C2.5,10.1645298 2.99595505,9.32536119 3.79434746,8.88583903 L13.7943475,3.38074961 C14.5450009,2.9675082 15.4549991,2.9675082 16.2056525,3.38074961 Z" id="Polygon-Copy" stroke="#FFEBC2" fill="#000000"></path>
+                        <g id="Group-18" transform="translate(3.000000, 5.000000)">
+                            <mask id="mask-7" fill="white">
+                                <use xlink:href="#path-6"></use>
+                            </mask>
+                            <use id="Polygon-Copy-2" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                            <rect id="Rectangle-19" fill-opacity="0.4" fill="#000000" mask="url(#mask-7)" transform="translate(18.119091, 21.258270) rotate(-45.000000) translate(-18.119091, -21.258270) " x="1.06396103" y="13.4261025" width="34.1102597" height="15.6643357"></rect>
+                            <rect id="Rectangle-19-Copy" fill="#000000" mask="url(#mask-7)" transform="translate(5.719091, 21.258270) scale(-1, 1) rotate(-45.000000) translate(-5.719091, -21.258270) " x="-11.336039" y="13.4261025" width="34.1102597" height="15.6643357"></rect>
+                        </g>
+                        <g id="V">
+                            <use fill="#D8D8D8" fill-opacity="1" filter="url(#filter-10)" xlink:href="#text-9"></use>
+                            <use fill="url(#linearGradient-8)" fill-rule="evenodd" xlink:href="#text-9"></use>
+                            <use fill="#D8D8D8" fill-opacity="1" xlink:href="#text-9"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

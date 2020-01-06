@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>三角形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页老新版本按钮-copy-4" transform="translate(-671.000000, -1695.000000)" fill="#7A581E">
+            <g id="分组-3" transform="translate(580.000000, 1685.000000)">
+                <path d="M101.002851,12.9137355 L108.326562,24.2321979 C108.926621,25.1595615 108.661288,26.397782 107.733925,26.9978408 C107.410251,27.2072764 107.032945,27.3187004 106.647422,27.3187004 L92,27.3187004 C90.8954305,27.3187004 90,26.4232699 90,25.3187004 C90,24.9331778 90.111424,24.5558712 90.3208597,24.2321979 L97.6445707,12.9137355 C98.2446295,11.9863719 99.4828499,11.7210389 100.410214,12.3210977 C100.647398,12.4745703 100.849379,12.6765505 101.002851,12.9137355 Z" id="三角形" transform="translate(99.323830, 19.659350) scale(-1, 1) rotate(-90.000000) translate(-99.323830, -19.659350) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

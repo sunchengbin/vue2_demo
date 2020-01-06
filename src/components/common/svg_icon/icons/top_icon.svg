@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="60px" viewBox="0 0 120 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>点歌 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="98.4191895%" y1="38.6535645%" x2="4.13614909%" y2="67.0633952%" id="linearGradient-1">
+            <stop stop-color="#626262" offset="0%"></stop>
+            <stop stop-color="#333333" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="已点-copy" transform="translate(-600.000000, -432.000000)">
+            <g id="列表1-" transform="translate(30.000000, 432.000000)">
+                <g id="点歌" transform="translate(570.000000, 0.000000)">
+                    <g id="Group-3-Copy-2">
+                        <rect id="Rectangle-6" stroke="url(#linearGradient-1)" x="0.5" y="0.5" width="119" height="59" rx="29.5"></rect>
+                        <text id="点歌" fill="url(#linearGradient-1)" font-family="PingFangSC-Medium, PingFang SC" font-size="30" font-weight="400">
+                            <tspan x="30" y="41">置顶</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

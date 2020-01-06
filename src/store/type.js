@@ -1,0 +1,4 @@
+const SAVE_FROM_WAY = 'SAVE_FROM_WAY'
+export {
+  SAVE_FROM_WAY
+}

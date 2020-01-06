@@ -1,0 +1,52 @@
+html,
+body,
+div,
+p,
+ul,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  background: transparent;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: $link_font_color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  content: normal !important;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
