@@ -6,7 +6,7 @@ export default [
     name: 'home',
     component: () => import('@/views/index'),
     meta: {
-      title: '雷石K歌'
+      title: '新版vue'
     }
   }
 ]
