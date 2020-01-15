@@ -31,6 +31,7 @@
 #### 移动端适配方案
 
 [参见] (https://mp.weixin.qq.com/s/Ey9SbQcacfW7celMSWyBRg)
+[适配] (https://juejin.im/entry/5aa09c3351882555602077ca)
 
 #### 全局引入base.scss
 首先安装style-resources-loader的npm包，然后在vue.config.js中添加如下代码

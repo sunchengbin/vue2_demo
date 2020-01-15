@@ -1,7 +1,7 @@
 // 配置api地址：https://cli.vuejs.org/zh/config/#%E5%85%A8%E5%B1%80-cli-%E9%85%8D%E7%BD%AE
 const path = require('path')
 const webpack = require('webpack')
-const Timestamp = new Date().getTime()
+const filename = process.env.NODE_ENV === 'development' ? '[name]' : '[name].[chunkhash:6]'
 module.exports = {
   // 修改output.path
   outputDir: 'dist',
@@ -9,8 +9,8 @@ module.exports = {
   baseUrl: process.env.BASE_URL,
   configureWebpack: {
     output: { // 输出重构  打包编译后的 文件名称  【模块名称.版本号.时间戳】
-      filename: `[name].${Timestamp}.js`,
-      chunkFilename: `[name].${Timestamp}.js`
+      filename: `${filename}.js`,
+      chunkFilename: `${filename}.js`
     }
   },
   chainWebpack: config => {

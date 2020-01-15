@@ -1,7 +1,10 @@
 <template>
   <div class="main">
-    <div>
+    <div class="">
       hello world
+      <div class="box">
+        <div v-on:click="goList">list页面</div>
+      </div>
     </div>
   </div>
 </template>
@@ -16,6 +19,9 @@ export default {
   computed: {
   },
   methods: {
+    goList () {
+      this.$router.push('/action/list')
+    }
   },
   created () {
   },
@@ -24,5 +30,16 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+  @svg square {
+    @rect {
+        fill: var(--color, black);
+        width: 100%;
+        height: 2px;
+    }
+  }
+
+  .box {
+      background: white svg(square param(--color #00b1ff));
+  }
 </style>

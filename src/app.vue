@@ -26,28 +26,16 @@ export default {
   }
 }
 </script>
-
 <style lang="scss">
-html, body {
-  height: 100%;
-}
-#app {
-  min-height: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  background: $bottom_color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 80px;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    &.router-link-exact-active {
-      color: $active_font_color;
-    }
+  body {
+    font-size: 24px;
   }
-}
+  #app {
+    font-size: 60px;
+    background: $bottom_color;
+    color: $one_level_color;
+  }
+  a {
+    color: $link_font_color;
+  }
 </style>

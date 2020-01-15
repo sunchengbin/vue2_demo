@@ -8,5 +8,13 @@ export default [
     meta: {
       title: '新版vue'
     }
+  },
+  {
+    path: '/action/list',
+    name: 'list',
+    component: () => import('@/views/index/list'),
+    meta: {
+      title: '新版vue的list页'
+    }
   }
 ]
