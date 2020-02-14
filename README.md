@@ -241,4 +241,5 @@ chainWebpack: config => {
 > 解决方案：采用微架构，将业务做细分
 
 蚂蚁金服微前端解决方案 qiankun [https://mp.weixin.qq.com/s/Fe-pfiyly7V892pmhdlbdA]
+
 网易严选微前端解决方案分析 [https://mp.weixin.qq.com/s/x2N-Y5xZV-XbrqxDT_wLKA]
