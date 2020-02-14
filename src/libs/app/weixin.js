@@ -2,7 +2,7 @@ import wx from 'weixin-js-sdk'
 import {
   utils,
   apis,
-  chttp
+  http
 } from '@/libs/interfaces'
 import store from '@/store'
 import Cookies from 'js-cookie'
@@ -53,8 +53,7 @@ const weixin = {
       'type': 'thunder',
       'url': window.location.href.replace(/#.*$/, '')
     }
-    // http.get(`${apis.initWx}?param=` + encodeURIComponent(JSON.stringify(req))).then(function (res) {
-    chttp.get(apis.initWx, {
+    http.get(apis.initWx, {
       params: req
     }).then(function (res) {
       try {
@@ -181,10 +180,6 @@ const weixin = {
           localId: ids[i],
           success: function (res) {
             serverIds.push(res.serverId)
-            // if (num === 1 && localIds.length > 1) {
-            // localIds.shift()
-            // serverIds.shift()
-            // }
             i++
             if (i < length) {
               upload()
@@ -271,7 +266,7 @@ const weixin = {
     })
   },
   wxPay (params, url, elseData, type) {
-    chttp.post(url, params).then(res => {
+    http.post(url, params).then(res => {
       res.errcode = parseInt(res.errcode)
       if (res.errcode === 200) {
         store.commit('SAVE_ORDER_ID', res.oid)
