@@ -1,4 +1,5 @@
 #!/bin/bash
+git checkout online
 npm run prod
 git add *
 git commit -a -m 'build onlie'

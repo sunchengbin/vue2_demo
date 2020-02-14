@@ -1,4 +1,5 @@
 #!/bin/bash
+git checkout stage-online
 npm run stage
 git add *
 git commit -a -m 'build stage'

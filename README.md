@@ -5,19 +5,6 @@
 - [vue-cli3](https://cli.vuejs.org/zh/)
 - yarn
 
-## online代码nginx配置记录
-
-```
-  server {
-    listen 80;
-    server_name kg.stage.ktvsky.com;
-    root /home/work/online/src/wx_ktv/dist/;
-    location / {
-      try_files $uri $uri/ /index.html;
-    }
-  }
-```
-
 ## 需要注意的问题
 
 因为vue-cli3做了改进，使用了一套基于插件的架构。
@@ -132,7 +119,7 @@ module.exports = {
 }
 
 ```
-#### 公共模块的提取(dll-plugin)
+#### 常用不常更新公共模块的提取(dll-plugin)
 
 一、安装npm包webpack, webpack-cli, add-asset-html-webpack-plugin
 
@@ -208,3 +195,50 @@ chainWebpack: config => {
 ├── babel.config.js               babel相关配置
 └── vue.config.js                 vue-cli3创建的项目，需要通过该文件进行webpack配置编辑
 ```
+
+
+## 代码上线nginx配置(本地和线上)
+
+```
+  server {
+    listen 80;
+    server_name www.workspace.com;
+    root /home/work/online/src/wx_ktv/dist/;
+    location / {
+      try_files $uri $uri/ /index.html;
+    }
+  }
+```
+
+## 本地测试hosts文件添加代码如下
+
+```
+127.0.0.1 www.workspace.com
+```
+
+## 框架中存在的问题
+
+一、svg的过多使用造成压缩后主app.js体积增大
+
+> 因为svg使用时要初始化全部svg内容，然后动态添加到html中，而svg编码会全部注入到app.js中，致使文件体积增大。
+> 两种解决方案：
+> 1、svg图标使用要谨慎，非必要不要使用svg，同时svg文件大小尽量压缩到最小
+> 2、构建时把svg编码提前压缩到html中（这种方案的弊端就是index.html文件大小增大，加载变慢）
+
+二、如果项目中小图片增多，会造成app.js体积增大
+
+> 因为url—loader会把过小图片转化为base64编码，并注入到js文件中
+> 两种解决方案：
+> 1、调低url-loader配置中的limit值，vue-cli3中默认值4096，4kb
+> 2、使用图片的策略修改，例如雪碧图
+
+三、style-resources-loader全局引入base.scss造成一些静态代码重复添加
+
+> 解决方案：base.scss中引入的静态样式直接编写（或者构建时注入）到index.html中
+
+四、项目页面激增造成app.js体积增大
+
+> 解决方案：采用微架构，将业务做细分
+
+蚂蚁金服微前端解决方案 qiankun [https://mp.weixin.qq.com/s/Fe-pfiyly7V892pmhdlbdA]
+网易严选微前端解决方案分析 [https://mp.weixin.qq.com/s/x2N-Y5xZV-XbrqxDT_wLKA]
