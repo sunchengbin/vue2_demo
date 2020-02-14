@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta content="telephone=no" name=format-detection><meta name=apple-touch-fullscreen content=yes><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><meta name=screen-orientation content=portrait><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><meta http-equiv=x-dns-prefetch-control content=on><link rel=dns-prefetch href=//api.com><link rel=icon href=http://www.workspace.com/favicon.ico><link rel=preload href=/open_screen.gif as=image><title>新版vue</title><style>body, button, div, html, input, p, textarea, ul {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, PingFang SC, Helvetica Neue, STHeiti, sans-serif;
+      line-height: 1.5;
+      border: 0;
+      border-radius: 0;
+      -webkit-appearance: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-touch-callout: none;
+      background: transparent;
+      outline: 0;
+      box-sizing: border-box
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden
+    }
+
+    body {
+      overflow-y: scroll
+    }
+
+    a, a:hover {
+      text-decoration: none
+    }
+
+    ul {
+      list-style: none
+    }
+
+    img {
+      width: 100%;
+      vertical-align: middle;
+      border: 0;
+      content: normal !important
+    }
+
+    #app {
+      min-height: 100%;
+      overflow-x: hidden;
+      justify-content: center
+    }
+
+    #app, #loading {
+      height: 100%;
+      display: flex;
+      align-items: center
+    }
+
+    #loading {
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: #fff;
+      z-index: 99999;
+      overflow: hidden;
+      flex-direction: column;
+      visibility: hidden
+    }
+
+    #loading .img-wrap {
+      width: 33.3%;
+      margin-top: 40%
+    }
+
+    #loading .logo {
+      width: 50%;
+      margin-top: 50%
+    }
+
+    #loading img {
+      width: 100%;
+      height: auto
+    }
+
+    #loading p {
+      font-weight: 700;
+      padding-top: 5.5%;
+      text-align: center
+    }
+
+    .loading {
+      visibility: visible
+    }</style><link href=http://www.workspace.com/app.6244ea.js rel=preload as=script><link href=http://www.workspace.com/chunk-vendors.06560d.js rel=preload as=script><link href=http://www.workspace.com/css/app.01aa9dd2.css rel=preload as=style><link href=http://www.workspace.com/css/app.01aa9dd2.css rel=stylesheet></head><body id=body><noscript><strong>We're sorry but vue_demo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><div id=loading><div class=img-wrap><img src=/open_screen.gif></div></div><script src=http://www.workspace.com/lib_7195f387792e6c6bf897.js></script><script src=http://www.workspace.com/chunk-vendors.06560d.js></script><script src=http://www.workspace.com/app.6244ea.js></script></body><script>if (document.addEventListener) {
+    function DOMContentLoaded() {
+      var loading = document.getElementById('loading')
+      if (location.href.indexOf('/action/home') >= 0) {
+        loading.style.visibility = 'visible'
+      } else {
+        loading.style.display = 'none'
+      }
+    }
+    document.addEventListener("DOMContentLoaded", DOMContentLoaded, false);
+  }</script></html>

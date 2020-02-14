@@ -85,7 +85,7 @@
       z-index: 99999;
       overflow: hidden;
       flex-direction: column;
-      visibility: hidden
+      visibility: visible
     }
 
     #loading .img-wrap {
@@ -128,18 +128,4 @@
   </div>
   <!-- built files will be auto injected -->
 </body>
-<script>
-  if (document.addEventListener) {
-    function DOMContentLoaded() {
-      var loading = document.getElementById('loading')
-      if (location.href.indexOf('/action/home') >= 0) {
-        loading.style.visibility = 'visible'
-      } else {
-        loading.style.display = 'none'
-      }
-    }
-    document.addEventListener("DOMContentLoaded", DOMContentLoaded, false);
-  }
-</script>
-
 </html>
